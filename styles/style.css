@@ -1,0 +1,191 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+  background-image: url("images/background.webp");
+}
+
+/* makes background white to make reading easier */
+section {
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 1.5em;
+}
+
+section h2,p {
+  padding-top: 1em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+  
+/* add background to webpage */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+/* Border for table */
+table, th, td {
+  border: 1px solid black;
+}
+
+/* ensures dotpoint shows dot */
+section ul {
+  display: list-item;
+  margin-left: 2em;
+}
+
+/* ensures list shows numbers */
+section ol {
+  display: list-item;
+  margin-left: 2em;
+}
+
+/* layout styling for img */
+img {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* layout styling for img captions */
+figcaption {
+  text-align: center;
+}
+
+/* layout styling for definitions */
+dl {
+  border: 3px double black;
+  padding: 0.5em;
+}
+
+dt {
+  clear: left;
+  float: left;
+  text-align: right;
+  font-weight: bold;
+}
+dt::after {
+  content: " : "; 
+}
+dd {
+  width: 90%;
+  margin-left: 20%;
+}
+
+#def {
+  margin: auto; 
+  width: 60%;
+}
+
+/* make nav fixed to the top */
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em 1em 1em 0em;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+}
+
+/* styles for nav */
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    text-decoration: none;
+    display: inline;
+}
+
+/* turns section of nav a darker colour when hovering over it with mouse */
+nav a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* page shows up as blue in nav bar when in web page */
+.active {
+  background-color: #1985A1;
+}
+
+aside {
+  width: 30%;
+  float: right;
+  border-style: solid;
+  border-color: #1985A1;
+  padding: 1em;
+  margin: 0em 0em 1em 1em;
+}
+
+#table aside h3 {
+  padding-bottom: 1em;
+}
+
+/* style for the main title in web page */
+.title {
+    text-align: center;
+    padding-top: 258px;
+    color: #46494C;
+    font-size: 104px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-weight: 1000;
+    text-shadow: 0 0 43px #F4EAEA;
+    padding-bottom: 196px;
+}
+
+/* Make text float to the left */
+.floatleft {
+  float: left;
+}
+
+/* Make text float to the right */
+.floatright {
+  float: right;
+  direction: rtl;
+}
+
+/* Make text bold */
+.bold {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* centre table in element */
+.centretable {
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+}
+
+footer p {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+footer #footer-title {
+  padding-top: 1em;
+}
+
+footer #footer-mailto {
+  padding-bottom: 1em;
+  font-style: italic;
+}
+
+footer p a {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
