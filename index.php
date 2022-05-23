@@ -24,7 +24,7 @@
   </section>
 
   <section>
-    <a href="https://www.youtube.com/watch?v=wdMVjcgZCUo">Video Presentation</a>
+    <a href="https://www.youtube.com/watch?v=wdMVjcgZCUo">Video Presentation for Part A</a>
   </section>
 
 <?php
