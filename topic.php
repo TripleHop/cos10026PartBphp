@@ -19,7 +19,6 @@
     define('TOPIC', true);
     include_once 'header.inc';
     ?>
-    <header><h1 class="title">MMORPG - Topic Description</h1></header>
 
     <section>
       <h2>Who developed it? When? Why?</h2>

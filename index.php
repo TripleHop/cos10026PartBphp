@@ -19,7 +19,6 @@
   define('INDEX', true);
   include_once 'header.inc';
   ?>
-  <header><h1 class="title">MMO RPG</h1></header>
 
   <section>
     <h2>What is an MMORPG?</h2>
