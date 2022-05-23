@@ -14,6 +14,11 @@
         <a class="active" href="quiz.html">Quiz</a>
         <a href="enhancements.html">Enhancements</a>
     </nav>
+
+<?php
+define('QUIZ', 'QUIZ');
+include 'header.inc';
+?>
 <header><h1 class="title">MMORPG - Quiz</h1></header>
 
 <section>

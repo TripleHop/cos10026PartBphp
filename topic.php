@@ -14,6 +14,11 @@
       <a href="quiz.html">Quiz</a>
       <a href="enhancements.html">Enhancements</a>
     </nav>
+
+    <?php
+    define('TOPIC', 'TOPIC');
+    include 'header.inc';
+    ?>
     <header><h1 class="title">MMORPG - Topic Description</h1></header>
 
     <section>

@@ -15,6 +15,10 @@
     <a href="enhancements.html">Enhancements</a>  
   </nav>
 
+  <?php
+  define('INDEX', 'INDEX');
+  include 'header.inc';
+  ?>
   <header><h1 class="title">MMO RPG</h1></header>
 
   <section>
