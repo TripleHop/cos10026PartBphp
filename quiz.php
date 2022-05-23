@@ -8,15 +8,10 @@
   <title>MMORPG - Quiz</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="topic.html">Topic Description</a>
-        <a class="active" href="quiz.html">Quiz</a>
-        <a href="enhancements.html">Enhancements</a>
-    </nav>
 
 <?php
 define('QUIZ', true);
+include_once 'menu.inc';
 include_once 'header.inc';
 ?>
 

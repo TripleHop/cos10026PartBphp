@@ -8,15 +8,10 @@
   <title>PHP Enhancements</title>
 </head>
 <body>
-  <nav>   
-    <a href="index.html">Home</a>
-    <a href="topic.html">Topic Description</a>
-    <a href="quiz.html">Quiz</a>
-    <a class="active" href="enhancements.html">Enhancements</a>
-  </nav>
 
 <?php
 define('PHPENHANCEMENTS', true);
+include_once 'menu.inc';
 include_once 'header.inc';
 ?>
 

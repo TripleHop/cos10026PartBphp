@@ -8,15 +8,11 @@
   <title>MMORPG - Topic</title>
 </head>
 <body>
-    <nav>
-      <a href="index.html">Home</a>
-      <a class="active" href="topic.html">Topic Description</a>
-      <a href="quiz.html">Quiz</a>
-      <a href="enhancements.html">Enhancements</a>
-    </nav>
+    
 
     <?php
     define('TOPIC', true);
+    include_once 'menu.inc';
     include_once 'header.inc';
     ?>
 
