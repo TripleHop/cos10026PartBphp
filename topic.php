@@ -151,10 +151,8 @@
     <sup id="fn2">2. <a href="https://www.museumofplay.org/2010/08/30/creating-mmorpgs-the-neverwinter-nights-story/">Museum of Play</a> Accessed: 9/3/2022<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup><br>
     <sup id="fn3">3. <a href="https://www.mordorintelligence.com/industry-reports/mmorpg-gaming-market">Morder Intelligence</a> Accessed: 9/3/2022<a href="#ref3" title="Jump back to footnote 3 in the text.">↩</a></sup>
   </section>
-<footer>
-  <hr>
-    <p id="footer-title">Our Group Members:</p>
-    <p id="footer-mailto"><a href="mailto:103608973@student.swin.edu.au">Gerard Go</a><a href="mailto:103590300@student.swin.edu.au">Koby Bremner</a><a href="mailto:103994656@student.swin.edu.au">Jinxi Xu</a><a href="mailto:102579049@student.swin.edu.au">Josh Willcock</a><a href="mailto:103075742@student.swin.edu.au">Christian Cheng</a></p> 
-</footer>
+<?php
+include_once 'footer.inc';
+?>
 </body>
 </html>
