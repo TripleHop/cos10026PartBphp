@@ -9,6 +9,12 @@ if (defined('TOPIC')) {
     echo "<header><h1 class=\"title\">MMORPG - Topic Description</h1></header>";
 }
 if (defined('PHPENHANCEMENTS')) {
-    echo "<header><h1 class=\"title\">MMORPG - PHPENHANCEMENTS</h1></header>";
+    echo "<header><h1 class=\"title\">MMORPG - PHP Enhancements</h1></header>";
+}
+if (defined('MARKQUIZ')) {
+    echo "<header><h1 class=\"title\">MMORPG - Mark Quiz</h1></header>";
+}
+if (defined('MANAGE')) {
+    echo "<header><h1 class=\"title\">MMORPG - Attempts</h1></header>";
 }
 ?>
