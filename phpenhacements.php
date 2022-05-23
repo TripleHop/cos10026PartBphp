@@ -16,8 +16,8 @@
   </nav>
 
 <?php
-define('PHPENHANCEMENTS', 'PHPENHANCEMENTS');
-include 'header.inc';
+define('PHPENHANCEMENTS', true);
+include_once 'header.inc';
 ?>
 <header><h1 class="title">MMORPG - PHPENHANCEMENTS</h1></header>
   

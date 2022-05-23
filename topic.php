@@ -16,8 +16,8 @@
     </nav>
 
     <?php
-    define('TOPIC', 'TOPIC');
-    include 'header.inc';
+    define('TOPIC', true);
+    include_once 'header.inc';
     ?>
     <header><h1 class="title">MMORPG - Topic Description</h1></header>
 

@@ -16,8 +16,8 @@
   </nav>
 
   <?php
-  define('INDEX', 'INDEX');
-  include 'header.inc';
+  define('INDEX', true);
+  include_once 'header.inc';
   ?>
   <header><h1 class="title">MMO RPG</h1></header>
 

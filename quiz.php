@@ -16,8 +16,8 @@
     </nav>
 
 <?php
-define('QUIZ', 'QUIZ');
-include 'header.inc';
+define('QUIZ', true);
+include_once 'header.inc';
 ?>
 <header><h1 class="title">MMORPG - Quiz</h1></header>
 
