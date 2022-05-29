@@ -17,57 +17,61 @@ include_once 'header.inc';
 
 <section>
 <div class="quizinfo">
-    <form id="quiz" method="post" action=" https://mercury.swin.edu.au/it000000/formtest.php">
+    <form id="quiz" method="post" action="markquiz.php">
+        <br/>    
         <fieldset>
-            <legend>Student details</legend>
+            <legend>&nbspStudent Details&nbsp</legend>
             <p>
-                <label for="FirstName">First Name</label>
-                <input type="text" name="FirstName" id="FirstName" maxlength="20" size="15" required="required" pattern="[A-Za-z- ]{1,30}" /> <br />
-                <label for="LastName">Last Name</label>
-                <input type="text" name="LastName" id="LastName" maxlength="20" size="15" required="required" pattern="[A-Za-z- ]{1,30}" /> <br />
-                <label for="StudentID">StudentID</label>
-                <input type="text" name="StudentID" id="StudentID" maxlength="10" size="10" required="required" pattern="\d(7|10)" />
+                <label for="textanswer">&nbspFirst Name</label>
+                <input type="text" name="fname" id="fname" required="required" maxlength="30" required="required" pattern="^[a-zA-Z -]{1,30}$" placeholder="First Name"/><br/>
+                <label for="textanswer">&nbspLast Name</label>
+                <input type="text" name="lname" id="lname" maxlength="30" required="required" pattern="^[a-zA-Z -]{1,30}$" placeholder="Last Name"/><br/>
+                <label for="textanswer">&nbspStudentID</label>
+                <input type="text" name="student_id" id="student_id" maxlength="10" minlength="7" required="required" pattern="[0-9]+" placeholder="StudentID"/>
             </p>
+            <br>
         </fieldset>
+        <br/>
         <fieldset>
-            <p> What was the name of the first Graphical MMORPG? <br />
-                <label><input type="radio" name="radio" value="War" /> Warcraft</label>
-                <label><input type="radio" name="radio" value="Legends" /> Legends of Future Past</label>
-                <label><input type="radio" name="radio" value="Nights" required="required" /> Neverwinter Nights</label>
+            <legend>&nbspQuestions&nbsp</legend>
+            <p>&nbspQ1. What was the name of the first Graphical MMORPG? (1 Mark)<br/>
+            &nbsp<label><input type="radio" name="q1" id="q1" value="War" required="required"/>&nbspWarcraft</label><br>
+            &nbsp<label><input type="radio" name="q1" id="q1" value="Legends"/>&nbspLegends of Future Past</label><br>
+            &nbsp<label><input type="radio" name="q1" id="q1" value="Nights"/>&nbspNeverwinter Nights</label><br>
             </p>
-            <br />
-            <p> When was it released? <br /> 
-                <select name="Release" id="Release">
+            <br/>
+            <p>&nbspQ2. When was it released? (1 Mark)<br/> 
+            &nbsp<select name="q2" id="q2">
+                    <option value="empty" required="required">Select Answer</option>
                     <option value="1989">1989</option>
                     <option value="1990">1990</option>
-                    <option value="1991" required="required">1991</option>
+                    <option value="1991">1991</option>
                     <option value="1999">1999</option>
                 </select>
             </p>
-            <br />
+            <br/>
             <p>
-                <label for="textanswer">Who was the Lead Designer?</label> <br />
-                <input type="text" name="textanswer" id="textanswer" maxlength="30" size="30" required="required" />
+                <label for="textanswer">&nbspQ3. Who was the Lead Designer? (1 Mark)</label><br/>
+                &nbsp<input type="text" name="q3" id="q3" required="required" maxlength="30" size="30" placeholder="Answer Here"/>
             </p>
-        </fieldset>
-        <fieldset>
-            <p> Which are key elements of an MMORPG (select all appropriate) <br />
-                 <label for="check1">Constantly active world</label>
-                <input type="checkbox" name="check1" value="check1" /> <br />
-                 <label for="check2">Character progression</label>
-                <input type="checkbox" name="check2" value="check2" /> <br />
-                 <label for="check3">Conclusion/Ending</label>
-                <input type="checkbox" name="check3" value="check3" /> <br />
-                 <label for="check4">Communication between players</label>
-                <input type="checkbox" name="check4" value="check4" />
+            <p>&nbspQ4. Which are key elements of an MMORPG? Multiple Answers (1 Mark)<br/>
+                &nbsp<input type="checkbox" name="q4" id="q4" value="check1" required="required"/>
+                <label for="check1">Constantly active world</label><br>
+                &nbsp<input type="checkbox" name="q4" id="q4"value="check2"/>
+                <label for="check2">Character progression</label><br>
+                &nbsp<input type="checkbox" name="q4" id="q4"value="check3"/>
+                <label for="check3">Conclusion/Ending</label><br>
+                &nbsp<input type="checkbox" name="q4" id="q4"value="check4"/>
+                <label for="check4">Communication between players</label><br>
             </p>
-            <br />
-            <p> Why has the MMORPG industry grown over the last 20 years? <br />
-                <textarea name="textarea" rows="4" cols="40" placeholder="Answer Here"></textarea>
+            <br>
+            <p>&nbspQ5. Why has the MMORPG industry grown over the last 20 years? (1 Mark)<br/>
+            &nbsp<textarea name="q5" id="q5" rows="4" cols="40" placeholder="Answer Here" required="required"></textarea>
             </p>
+            <br>
         </fieldset>
         <p>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit"/>
         </p>
     </form>
 </section>
