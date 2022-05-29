@@ -1,7 +1,6 @@
 <?php
 require_once("settings.php"); //connection info
 		
-$conn = @mysqli_connect($host,$user,$pwd,$sql_db);
 
 $display_message = "";
 
