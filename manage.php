@@ -48,5 +48,6 @@ if(empty($uname)) {
   header("Location: login.php?error=Incorrect User name or Password");
   exit();
 }
-
+ 
 ?>
+
