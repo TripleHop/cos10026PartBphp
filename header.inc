@@ -17,4 +17,7 @@ if (defined('MARKQUIZ')) {
 if (defined('MANAGE')) {
     echo "<header><h1 class=\"title\">MMORPG - Attempts</h1></header>";
 }
+if (defined('ATTEMPTS')) {
+    echo "<header><h1 class=\"title\">MMORPG - Attempts</h1></header>";
+}
 ?>
