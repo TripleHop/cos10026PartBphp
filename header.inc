@@ -14,10 +14,10 @@ if (defined('PHPENHANCEMENTS')) {
 if (defined('MARKQUIZ')) {
     echo "<header><h1 class=\"title\">MMORPG - Mark Quiz</h1></header>";
 }
-if (defined('MANAGE')) {
-    echo "<header><h1 class=\"title\">MMORPG - Attempts</h1></header>";
-}
 if (defined('ATTEMPTS')) {
     echo "<header><h1 class=\"title\">MMORPG - Attempts</h1></header>";
+}
+if (defined('LOGIN')) {
+    echo "<header><h1 class=\"title\">LOGIN TO ACCESS ATTEMPTS</h1></header>";
 }
 ?>

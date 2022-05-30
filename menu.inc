@@ -46,4 +46,10 @@ if (defined('ATTEMPTS')) {
   <a href=\"index.php\">Logout</a>
 </nav>";
 }
+if (defined('LOGIN')) {
+  echo "<nav>
+  <a class=\"active\" href=\"login.php\">Log In</a>
+  <a href=\"index.php\">Return to Home Page</a>
+</nav>";
+}
 ?>

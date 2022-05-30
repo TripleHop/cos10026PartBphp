@@ -9,8 +9,13 @@
 </head>
 <body>
 
+  <?php
+  define('LOGIN', true);
+  include_once 'menu.inc';
+  include_once 'header.inc';
+  ?>  
+<section>
     <form action="manage.php" method="POST">
-        <h2>LOGIN</h2>
 
             <?php if (isset($_GET['error'])) { ?> 
               <p class="error"><?php echo $_GET['error']; ?></p>
@@ -23,6 +28,9 @@
           
           <button type="submit">Login</button>
     </form>
-
+</section>
+<?php
+include_once 'footer.inc';
+?>
 </body>
 </html>
