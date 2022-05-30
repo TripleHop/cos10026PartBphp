@@ -26,6 +26,9 @@
   <section>
     <a href="https://www.youtube.com/watch?v=wdMVjcgZCUo">Video Presentation for Part A</a>
   </section>
+  <section>
+    <a href="https://www.youtube.com/watch?v=eFKWmB6NaPs">Video Presentation for Part A</a>
+  </section>
 
 <?php
 include_once 'footer.inc';
