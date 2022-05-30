@@ -8,6 +8,14 @@
   <title>MMORPG - PHP Enhancements</title>
 </head>
 <body>
+<nav>   
+    <a href="index.php">Home</a>
+    <a href="topic.php">Topic Description</a>
+    <a href="quiz.php">Quiz</a>
+    <a class="active" href="enhancements.html">Enhancements</a>
+    <a href="phpenhancements.php">PHP Enhancements</a>
+    <a href="login.php">Login</a>
+</nav>
 <header><h1>PHP Enhancements</h1></header>
 <section>
     <h2>PHP Enhancements used in this website</h2>
