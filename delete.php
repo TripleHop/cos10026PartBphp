@@ -6,7 +6,7 @@
       $sql = "DELETE FROM `attempts` WHERE student_id = '$student_id'";  
       $result = mysqli_query($conn,$sql);  
       if ($result) {  
-           header('location:list.php');  
+           header('location:attempts.php');  
       }else{  
            echo "Error: ".mysqli_error($conn);  
       }  
