@@ -50,5 +50,3 @@ if(empty($uname)) {
 }
  
 ?>
-
-  
